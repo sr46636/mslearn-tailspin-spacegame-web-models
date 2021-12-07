@@ -1,4 +1,7 @@
 pool:
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: 
   vmImage: 'ubuntu-20.04'
 
 variables:
